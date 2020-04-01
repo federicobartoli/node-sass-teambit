@@ -4,6 +4,10 @@
     clear: both;
 }
 
+a{
+     text-decoration: none;
+}
+
 .container-fluid {
      width:100vw;
 }
@@ -16,9 +20,19 @@
 
 .row {
      display: flex;
-     width: 100vw - 20vw;
+     width: 100vw - 10vw;
 }
 
 .bg-white{
      background-color: white;
+}
+
+.btn{
+     position: relative;
+     padding: 7px;
+     border-radius: 7px;
+     font-size: 0.875rem;
+     background-color: white;
+     border: 1px solid #30488f;
+     width: 100px;
 }

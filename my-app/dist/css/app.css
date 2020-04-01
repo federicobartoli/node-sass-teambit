@@ -1,9 +1,10 @@
-/* RESET */
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);/* RESET */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 /* COMMON */
@@ -12,6 +13,10 @@
   content: "";
   display: table;
   clear: both;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container-fluid {
@@ -26,32 +31,75 @@
 
 .row {
   display: flex;
-  width: 80vw;
+  width: 90vw;
 }
 
 .bg-white {
   background-color: white;
 }
 
+.btn {
+  position: relative;
+  padding: 7px;
+  border-radius: 7px;
+  font-size: 0.875rem;
+  background-color: white;
+  border: 1px solid #30488f;
+  width: 100px;
+}
+
 /* HEADER */
 
 .fb-header {
+  font-size: 0.875rem;
   height: 70px;
   margin-bottom: 40px;
+  color: #58402c;
 }
 
-.fb-header .wrapper {
+.fb-header .wrapper .row {
   padding: 20px 0;
+  border-bottom: 1px solid black;
 }
 
-.fb-header .wrapper .nav-sx {
+.fb-header .wrapper .row .nav-sx {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  width: 60%;
 }
 
-.fb-header .wrapper .nav-dx {
-  background-color: red;
+.fb-header .wrapper .row .nav-dx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+
+.fb-header .wrapper .row .nav-dx ul {
+  padding: 0 10px;
+}
+
+.fb-header .wrapper .row .nav-dx svg {
+  position: absolute;
+  left: 10px;
+}
+
+.fb-header .wrapper .row .nav-dx button a {
+  padding-left: 20px;
+  color: #58402c;
+}
+
+.fb-header .wrapper .row .nav-dx button:hover {
+  background-color: #30488f;
+}
+
+.fb-header .wrapper .row .nav-dx button:hover a {
+  color: white;
+}
+
+.fb-header .wrapper .row .nav-dx button:hover svg {
+  fill: #fff !important;
 }
 
 /* MAIN */
