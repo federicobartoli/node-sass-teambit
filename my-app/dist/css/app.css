@@ -1,0 +1,60 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COMMON */
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container-fluid {
+  width: 100vw;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  width: 80vw;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+/* HEADER */
+
+.fb-header {
+  height: 70px;
+  margin-bottom: 40px;
+}
+
+.fb-header .wrapper {
+  padding: 20px 0;
+}
+
+.fb-header .wrapper .nav-sx {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fb-header .wrapper .nav-dx {
+  background-color: red;
+}
+
+/* MAIN */
+
+/* FOOTER */
+

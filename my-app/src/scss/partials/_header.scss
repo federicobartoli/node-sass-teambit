@@ -1,0 +1,16 @@
+.fb-header{
+     height: 70px;
+     margin-bottom: 40px;
+     .wrapper{
+          padding: 20px 0;
+          .nav-sx {
+               display: flex;
+               justify-content: flex-start;
+               align-items: center;
+          }
+          .nav-dx {
+               background-color: red;
+          }
+     }
+
+}
