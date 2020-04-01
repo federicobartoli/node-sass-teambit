@@ -5,9 +5,26 @@
      .main-sx{
      width: 48%;
      line-height: 1.4;
+     small{
+          margin: 0 10px;
+     }
+               .btn-main{
+                    width:180px;
+                    padding-left: 20px;
+                    background-color: $link_color;
+                    a{
+                         color: white;
+                    }
+                    svg{
+                         position: absolute;
+                         left: 10px;
+                    }
+
+               }
      }
      .main-dx{
-          width: 52%;
+          margin-left: 5%;
+          width: 47%;
           img{
                width:100%;
           }

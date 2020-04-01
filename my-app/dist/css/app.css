@@ -19,8 +19,20 @@ a {
   text-decoration: none;
 }
 
+.fsp {
+  font-size: 1.375rem;
+}
+
 .fs50 {
   font-size: 50px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mb40 {
+  margin-bottom: 40px;
 }
 
 .container-fluid {
@@ -80,8 +92,44 @@ a {
   width: 40%;
 }
 
+.fb-header .wrapper .row .nav-dx .abs {
+  width: 100px;
+  padding: 0px;
+  position: absolute;
+  top: 0px;
+  margin: 30px 0 0 0;
+  left: 0px;
+  z-index: 99;
+  opacity: 0;
+  transition: opacity linear 0.15s;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  border: 1px solid #e1ddd4;
+  border-radius: 7px;
+}
+
+.fb-header .wrapper .row .nav-dx .abs li {
+  background-color: white;
+  z-index: 100;
+  padding: 10px;
+}
+
 .fb-header .wrapper .row .nav-dx ul {
   padding: 0 10px;
+  list-style-type: none;
+  position: relative;
+}
+
+.fb-header .wrapper .row .nav-dx ul:first-child {
+  cursor: pointer;
+}
+
+.fb-header .wrapper .row .nav-dx ul:first-child:hover .abs {
+  opacity: 1;
+}
+
+.fb-header .wrapper .row .nav-dx li {
+  z-index: 99;
 }
 
 .fb-header .wrapper .row .nav-dx svg {
@@ -119,8 +167,28 @@ a {
   line-height: 1.4;
 }
 
+.fb-main .main-sx small {
+  margin: 0 10px;
+}
+
+.fb-main .main-sx .btn-main {
+  width: 180px;
+  padding-left: 20px;
+  background-color: #30488f;
+}
+
+.fb-main .main-sx .btn-main a {
+  color: white;
+}
+
+.fb-main .main-sx .btn-main svg {
+  position: absolute;
+  left: 10px;
+}
+
 .fb-main .main-dx {
-  width: 52%;
+  margin-left: 5%;
+  width: 47%;
 }
 
 .fb-main .main-dx img {
