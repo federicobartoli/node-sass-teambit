@@ -1,1 +1,15 @@
-
+.fb-main{
+     color: $primary_color;
+     margin-top: 100px;
+     margin-bottom: 100px;
+     .main-sx{
+     width: 48%;
+     line-height: 1.4;
+     }
+     .main-dx{
+          width: 52%;
+          img{
+               width:100%;
+          }
+     }
+}

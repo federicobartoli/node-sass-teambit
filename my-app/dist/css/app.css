@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+.fs50 {
+  font-size: 50px;
+}
+
 .container-fluid {
   width: 100vw;
 }
@@ -103,6 +107,25 @@ a {
 }
 
 /* MAIN */
+
+.fb-main {
+  color: #58402c;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.fb-main .main-sx {
+  width: 48%;
+  line-height: 1.4;
+}
+
+.fb-main .main-dx {
+  width: 52%;
+}
+
+.fb-main .main-dx img {
+  width: 100%;
+}
 
 /* FOOTER */
 
