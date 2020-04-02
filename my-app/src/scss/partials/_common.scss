@@ -10,6 +10,10 @@
   top: -76px;
   z-index: 190;
 }
+.sticky-refresh {
+  position: fixed;
+  z-index: 190;
+}
 .sticky-2{
      transform: translateY(+76px);
 }
@@ -52,7 +56,9 @@ a{
 .fs26{
      font-size: 26px;
 }
-
+.underline{
+     text-decoration: underline;
+}
 .fs18{
      font-size: 18px;
 }
@@ -62,6 +68,15 @@ a{
 }
 .pt90{
      padding-top: 100px;
+}
+.pr150{
+     padding-right: 150px;
+}
+.pl150{
+     padding-left: 150px;
+}
+.mb100{
+     margin-bottom: 100px;
 }
 
 .column{

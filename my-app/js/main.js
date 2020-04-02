@@ -14,7 +14,7 @@ function myFunction() {
   if (window.pageYOffset > 76 && window.pageYOffset< 350) {
    $('#myHeader').addClass('sticky');
    $('.row').removeClass('border');
-   $('.fb-main').addClass('pt90');
+   $('.fb-true-main').addClass('pt90');
 
     console.log('if');
 } else if (window.pageYOffset > 350) {
@@ -28,7 +28,7 @@ function myFunction() {
     $('#myHeader').removeClass('sticky-2');
    $('#myHeader').removeClass('border');
   $('.row-header').addClass('border');
-   $('.fb-main').removeClass('pt90');
+   $('.fb-true-main').removeClass('pt90');
   console.log('else');
   }
 }

@@ -1,11 +1,24 @@
 .fb-main{
      color: $primary_color;
      margin-top: 100px;
-     margin-bottom: 100px;
+     .fa-arrow-right{
+          padding-left: 10px;
+     }
+     img{
+          width:100%;
+     }
+     .communication{
+          width: 200px !important;
+     }
+
+     .white-2{
+          .white-2 img {
+               max-width: 768px;
+               }
+
+     }
      .main-sx{
-          .fa-arrow-right{
-               padding-left: 10px;
-          }
+
      width: 48%;
      line-height: 1.4;
      small{
@@ -29,15 +42,13 @@
      .main-dx{
           margin-left: 5%;
           width: 47%;
-          img{
-               width:100%;
-          }
+
      }
 }
 .fb-main-2{
      color: $primary_color;
      margin-top: 30px;
-     margin-bottom: 30px;
+     margin-bottom: 90px;
      .fb-header-2{
           max-width: 628px;
          margin: 0 auto;
@@ -56,7 +67,6 @@
                img{
                     width: 140px;
                }
-
           }
           .card:last-child img{
                width: 100px;
