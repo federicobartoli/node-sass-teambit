@@ -36,6 +36,10 @@ a {
   font-size: 26px;
 }
 
+.fs18 {
+  font-size: 18px;
+}
+
 .mb30 {
   margin-bottom: 30px;
 }
@@ -44,8 +48,16 @@ a {
   flex-direction: column;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .mt20 {
   margin-top: 20px;
+}
+
+.pt20 {
+  padding-top: 20px;
 }
 
 .mb40 {
@@ -276,8 +288,20 @@ small {
   padding-bottom: 20px;
 }
 
+.fb-main-2 .cards .card:last-child p {
+  padding-bottom: 5px;
+}
+
 .fb-main-2 .cards .card:first-child img {
   padding-bottom: 20px;
+}
+
+.fb-main-2 .cards .card:first-child p {
+  width: 215px;
+}
+
+.fb-main-2 .cards p {
+  width: 200px;
 }
 
 /* FOOTER */
