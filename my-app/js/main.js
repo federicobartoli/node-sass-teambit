@@ -18,6 +18,8 @@ function myFunction() {
     console.log('if');
   } else {
    $('#myHeader').removeClass('sticky');
+   $('#myHeader').removeClass('border');
+  $('.row-header').addClass('border');
   console.log('else');
   }
 }
