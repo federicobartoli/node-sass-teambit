@@ -3,11 +3,11 @@
      height: 70px;
      margin-bottom: 40px;
      color: $primary_color;
-
+     transition: all 1s ease;
      .wrapper{
           .row{
                padding: 20px 0;
-               
+
 
                .nav-sx {
                     display: flex;

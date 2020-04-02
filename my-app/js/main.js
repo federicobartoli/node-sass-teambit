@@ -11,15 +11,24 @@ console.log(sticky);
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
-  if (window.pageYOffset > 350) {
+  if (window.pageYOffset > 76 && window.pageYOffset< 350) {
    $('#myHeader').addClass('sticky');
-   $('#myHeader').addClass('border');
    $('.row').removeClass('border');
+   $('.fb-main').addClass('pt90');
+
     console.log('if');
-  } else {
+} else if (window.pageYOffset > 350) {
+    $('#myHeader').addClass('sticky-2');
+    $('#myHeader').addClass('border');
+
+    $('.row').removeClass('border');
+     console.log('if');}
+   else {
    $('#myHeader').removeClass('sticky');
+    $('#myHeader').removeClass('sticky-2');
    $('#myHeader').removeClass('border');
   $('.row-header').addClass('border');
+   $('.fb-main').removeClass('pt90');
   console.log('else');
   }
 }

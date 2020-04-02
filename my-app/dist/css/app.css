@@ -17,9 +17,12 @@
 
 .sticky {
   position: fixed;
-  top: 0;
-  width: 100%;
+  top: -76px;
   z-index: 190;
+}
+
+.sticky-2 {
+  transform: translateY(76px);
 }
 
 .sticky + .fb-header {
@@ -68,6 +71,10 @@ a {
 
 .mb30 {
   margin-bottom: 30px;
+}
+
+.pt90 {
+  padding-top: 100px;
 }
 
 .column {
@@ -152,6 +159,7 @@ small {
   height: 70px;
   margin-bottom: 40px;
   color: #58402c;
+  transition: all 1s ease;
 }
 
 .fb-header .wrapper .row {
