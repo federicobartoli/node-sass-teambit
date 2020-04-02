@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);/* RESET */
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;
 
-* {
+400&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -27,8 +27,25 @@ a {
   font-size: 50px;
 }
 
+.fs15 {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.fs26 {
+  font-size: 26px;
+}
+
 .mb30 {
   margin-bottom: 30px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.mt20 {
+  margin-top: 20px;
 }
 
 .mb40 {
@@ -54,7 +71,16 @@ a {
   background-color: white;
 }
 
+.bg-secondary {
+  background-color: #ffe7d2;
+}
+
+.title-lh {
+  line-height: 1.533334;
+}
+
 .btn {
+  cursor: pointer;
   position: relative;
   padding: 7px;
   border-radius: 7px;
@@ -62,6 +88,19 @@ a {
   background-color: white;
   border: 1px solid #30488f;
   width: 100px;
+}
+
+small {
+  font-size: 0.8125rem;
+  color: #bdb5af;
+}
+
+.pt50 {
+  padding-top: 50px;
+}
+
+.pb50 {
+  padding-bottom: 50px;
 }
 
 /* HEADER */
@@ -109,9 +148,7 @@ a {
 }
 
 .fb-header .wrapper .row .nav-dx .abs li {
-  background-color: white;
-  z-index: 100;
-  padding: 10px;
+  padding: 5px;
 }
 
 .fb-header .wrapper .row .nav-dx ul {
@@ -125,6 +162,7 @@ a {
 }
 
 .fb-header .wrapper .row .nav-dx ul:first-child:hover .abs {
+  z-index: 100;
   opacity: 1;
 }
 
@@ -135,6 +173,10 @@ a {
 .fb-header .wrapper .row .nav-dx svg {
   position: absolute;
   left: 10px;
+}
+
+.fb-header .wrapper .row .nav-dx .btn:hover {
+  cursor: pointer;
 }
 
 .fb-header .wrapper .row .nav-dx button a {
@@ -167,6 +209,10 @@ a {
   line-height: 1.4;
 }
 
+.fb-main .main-sx .fa-arrow-right {
+  padding-left: 10px;
+}
+
 .fb-main .main-sx small {
   margin: 0 10px;
 }
@@ -193,6 +239,45 @@ a {
 
 .fb-main .main-dx img {
   width: 100%;
+}
+
+.fb-main-2 {
+  color: #58402c;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.fb-main-2 .fb-header-2 {
+  max-width: 628px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+.fb-main-2 .cards {
+  width: 860px;
+  height: 235px;
+}
+
+.fb-main-2 .cards .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 286px;
+}
+
+.fb-main-2 .cards .card img {
+  width: 140px;
+}
+
+.fb-main-2 .cards .card:last-child img {
+  width: 100px;
+  padding-bottom: 20px;
+}
+
+.fb-main-2 .cards .card:first-child img {
+  padding-bottom: 20px;
 }
 
 /* FOOTER */

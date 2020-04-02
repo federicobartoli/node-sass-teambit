@@ -17,8 +17,24 @@ a{
      font-size: 50px;
 }
 
+.fs15{
+     font-size: 15px;
+     font-weight: 100;
+}
+.fs26{
+     font-size: 26px;
+}
+
 .mb30{
      margin-bottom: 30px;
+}
+
+.column{
+     flex-direction: column;
+}
+
+.mt20{
+     margin-top: 20px;
 }
 
 .mb40{
@@ -44,7 +60,16 @@ a{
      background-color: white;
 }
 
+.bg-secondary{
+     background-color: $secondary_color;
+}
+
+.title-lh{
+     line-height: 1.533334;
+}
+
 .btn{
+     cursor: pointer;
      position: relative;
      padding: 7px;
      border-radius: 7px;
@@ -52,4 +77,16 @@ a{
      background-color: white;
      border: 1px solid #30488f;
      width: 100px;
+}
+
+small{
+     font-size: .8125rem;
+     color: #bdb5af;
+}
+
+.pt50 {
+    padding-top: 50px;
+}
+.pb50 {
+    padding-bottom: 50px;
 }
