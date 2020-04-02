@@ -5,6 +5,31 @@
 
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 190;
+}
+
+.sticky + .fb-header {
+  padding-top: 102px;
+}
+
+.mt8 {
+    margin-top: 80px;
+}
+
+.mb8 {
+    margin-bottom: 80px;
+}
+hr {
+    height: 0;
+    margin: 21px 0;
+    border-width: 0;
+    border-top: 1px solid #bdb5af;
+}
+
 a{
      text-decoration: none;
 }
@@ -57,7 +82,9 @@ a{
 .container-fluid {
      width:100vw;
 }
-
+.border{
+     border-bottom: 1px solid black;
+}
 .wrapper {
      display: flex;
      justify-content: center;

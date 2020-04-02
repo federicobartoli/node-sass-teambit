@@ -15,6 +15,32 @@
   clear: both;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 190;
+}
+
+.sticky + .fb-header {
+  padding-top: 102px;
+}
+
+.mt8 {
+  margin-top: 80px;
+}
+
+.mb8 {
+  margin-bottom: 80px;
+}
+
+hr {
+  height: 0;
+  margin: 21px 0;
+  border-width: 0;
+  border-top: 1px solid #bdb5af;
+}
+
 a {
   text-decoration: none;
 }
@@ -66,6 +92,10 @@ a {
 
 .container-fluid {
   width: 100vw;
+}
+
+.border {
+  border-bottom: 1px solid black;
 }
 
 .wrapper {
@@ -126,7 +156,6 @@ small {
 
 .fb-header .wrapper .row {
   padding: 20px 0;
-  border-bottom: 1px solid black;
 }
 
 .fb-header .wrapper .row .nav-sx {
@@ -288,6 +317,14 @@ small {
   padding-bottom: 20px;
 }
 
+.fb-main-2 .cards .safe img {
+  width: 100px;
+  height: 130px;
+  padding: 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .fb-main-2 .cards .card:last-child p {
   padding-bottom: 5px;
 }
@@ -302,6 +339,10 @@ small {
 
 .fb-main-2 .cards p {
   width: 200px;
+}
+
+.fb-main-2 .img-before img {
+  width: 280px;
 }
 
 /* FOOTER */
